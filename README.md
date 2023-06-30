@@ -46,7 +46,7 @@ const webhookURL = 'YOUR_WEBHOOK_LINK';
 - To modify the number of detection requests modified this line :
 
 ```js
-const threshold = 500;
+const threshold = 750;
 ```
 
 - After doing this, press CTRL + X and you press Y and ENTER then you do the following commands !
