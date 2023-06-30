@@ -27,7 +27,7 @@ apt-get install -y nodejs
 ```shell script
 wget https://github.com/Kurama250/Alerte_DDos_L7/archive/refs/heads/main.zip
 unzip main.zip
-cd Alerte_DDos_L7-main/Alerte_DDos_L7/
+cd Alerte_DDos_L7-main/
 npm install axios tail
 npm install pm2 -g
 ```
