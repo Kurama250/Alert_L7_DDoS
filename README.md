@@ -37,13 +37,19 @@ npm install pm2 -g
 nano index.js
 ```
 
-## And you also change this line :
+- And you also change this line :
 
 ```js
 const webhookURL = 'YOUR_WEBHOOK_LINK';
 ```
 
-After doing this, press CTRL + X and you press Y and ENTER then you do the following commands !
+- To modify the number of detection requests modified this line :
+
+```js
+const threshold = 500;
+```
+
+- After doing this, press CTRL + X and you press Y and ENTER then you do the following commands !
 
 ## 3 - on Terminal
 
