@@ -9,7 +9,7 @@ const axios = require('axios');
 const logFilePath = '/var/log/nginx/access.log';
 const webhookURL = 'YOUR_WEBHOOK_LINK';
 
-const threshold = 500;
+const threshold = 750;
 const windowSize = 10000;
 
 let requestCount = 0;
