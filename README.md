@@ -48,7 +48,7 @@ After doing this, press CTRL + X and you press Y and ENTER then you do the follo
 ## 3 - on Terminal
 
 ```shell script
-pm2 start index.js
+pm2 start Alerte_L7.js --watch
 ```
 
 <h1 align="center">Then it's the end you have started the bot have fun !</h1>
