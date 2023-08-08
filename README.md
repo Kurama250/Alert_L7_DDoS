@@ -7,27 +7,23 @@
 
 <h5>A) Auto installer</h5>
 
-- First, download and upload the codes to your server !
-
-- After :
+- Run command :
 
 ```shell script
-chmod +x setup_module.sh
-bash setup_module.sh
+bash <(curl -s https://raw.githubusercontent.com/Kurama250/Alerte_DDos_L7/main/setup.sh)
 ```
 <h5>B) Manual installer</h5>
 
 ```shell script
 apt update && apt upgrade -y
-apt install npm node.js zip
+apt install npm node.js git -y
 curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&\
 apt-get install -y nodejs
 ```
 
 ```shell script
-wget https://github.com/Kurama250/Alerte_DDos_L7/archive/refs/heads/main.zip
-unzip main.zip
-cd Alerte_DDos_L7-main/
+git clone https://github.com/Kurama250/Alerte_DDos_L7.git
+cd Alerte_DDos_L7/
 npm install axios tail
 npm install pm2 -g
 ```
@@ -54,7 +50,7 @@ const threshold = 750;
 ## 3 - on Terminal
 
 ```shell script
-pm2 start Alerte_L7.js --watch
+pm2 start index.js --watch
 ```
 
 - Demo : 
