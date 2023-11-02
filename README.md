@@ -10,20 +10,20 @@
 - Run command :
 
 ```shell script
-bash <(curl -s https://raw.githubusercontent.com/Kurama250/Alerte_DDos_L7/main/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/Kurama250/Alert_L7_DDoS/main/setup.sh)
 ```
 <h5>B) Manual installer</h5>
 
 ```shell script
 apt update && apt upgrade -y
-apt install npm node.js git -y
+apt install npm nodejs git -y
 curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&\
 apt-get install -y nodejs
 ```
 
 ```shell script
-git clone https://github.com/Kurama250/Alerte_DDos_L7.git
-cd Alerte_DDos_L7/
+git clone https://github.com/Kurama250/Alert_L7_DDoS.git
+cd Alert_L7_DDoS/
 npm install axios tail
 npm install pm2 -g
 ```
@@ -55,6 +55,6 @@ pm2 start index.js --watch
 
 - Demo : 
 
-![alt text](https://github.com/Kurama250/Alerte_DDos_L7/blob/main/alert_ddos.png?raw=true)
+![alt text](https://github.com/Kurama250/Alert_L7_DDoS/blob/main/alert_ddos.png?raw=true)
 
 <h1 align="center">Then it's the end you have started the bot have fun !</h1>
