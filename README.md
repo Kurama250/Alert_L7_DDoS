@@ -31,7 +31,7 @@ bash <(curl -s https://raw.githubusercontent.com/Kurama250/Alert_L7_DDoS/main/se
 ```shell script
 apt update && apt upgrade -y
 apt install npm nodejs git -y
-curl -fsSL https://deb.nodesource.com/setup_18.x | bash - &&\
+curl -fsSL https://deb.nodesource.com/setup_20.x | bash - &&\
 apt-get install -y nodejs
 ```
 
