@@ -71,5 +71,6 @@ pm2 start index.js -n DDoS_Alert
 
 ![alt text](https://github.com/Kurama250/Alert_L7_DDoS/blob/main/alert_ddos.png?raw=true)
 
+<h3 align="center"><strong>Support on Discord :</strong> <a href="https://discord.gg/6aebQGdDxB">Discord</a></3>
 <h3 align="center">If you like this repository don't hesitate to give it a star ⭐ !</h3>
 <h1 align="center">Then it's the end you have started the bot have fun !</h1>
